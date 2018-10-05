@@ -75,7 +75,7 @@ Table OF Contents
 /* -- typography -- */
 
 body {
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Avenir', 'Varela Round', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
@@ -83,7 +83,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Avenir', 'Montserrat', sans-serif;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -130,6 +130,14 @@ a:hover, a:focus {
 
 .white-text {
     color: #FFF;
+}
+
+.my-orange {
+    color: rgb(247, 104, 34)
+}
+
+.my-grey {
+  color: rgb(188, 204, 212)
 }
 
 ::-moz-selection {
@@ -270,7 +278,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .main-btn, .small-btn {
-    background: #6195FF;
+    background: rgb(247, 104, 34);
     color: #FFF;
 }
 
@@ -701,6 +709,10 @@ header {
 /*------------------------------------*\
 	Portfolio
 \*------------------------------------*/
+
+.defi-title {
+  font-size: 3rem;
+}
 
 .work {
     position: relative;

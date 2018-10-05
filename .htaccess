@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^hackathon-archives-nationales.org$ [NC]
+RewriteRule ^(.*)$ https://www.hackathon-archives-nationales.org/$1 [R=301,L]
