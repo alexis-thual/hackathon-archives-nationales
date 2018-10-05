@@ -287,6 +287,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     background: rgb(247, 104, 34);
     color: #FFF;
 }
+#nav.fixed-nav .small-btn {
+    background: #6195FF;
+    margin-top: 6px;
+}
 
 .white-btn {
     background: #FFF;
@@ -716,8 +720,34 @@ header {
 	Portfolio
 \*------------------------------------*/
 
+#defi-header {
+  background: url('../img/visuels/large_docs.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 200px;
+  margin-bottom: 40px;
+  padding-top: 90px;
+}
+#defi-header h2 {
+  color: rgb(62, 42, 19);
+}
+
+#defi-header .title::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 120px;
+    background-color: rgb(62, 42, 19);
+    margin-top: 20px;
+
+}
+
 .defi-title {
   font-size: 3rem;
+}
+
+#defi-footer img {
+  width: 100%
 }
 
 .work {
@@ -1556,6 +1586,10 @@ header {
 @media only screen and (max-width: 991px) {}
 
 @media only screen and (max-width: 767px) {
+  #defi-header {
+    padding-top: 60px;
+    height: 150px;
+  }
   .section-header h2.title {
   		font-size:31.5px;
 	}
@@ -1587,6 +1621,16 @@ header {
 }
 
 @media only screen and (max-width: 480px) {
+  #defi-header {
+    padding-top: 40px;
+    height: 130px;
+  }
+
+  #defi-footer img {
+    width: 150%;
+    margin-left: -25%;
+  }
+
   #portfolio [class*='col-xs'] {
 		  width:100%;
 	}
