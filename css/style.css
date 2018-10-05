@@ -57,6 +57,10 @@ Table OF Contents
     width: 100px;
 }
 
+.schedule .text-left {
+  width: 500px;
+}
+
 .sponsors img {
     max-width: 150px;
     max-height: 150px;
