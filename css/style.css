@@ -869,8 +869,10 @@ header {
   border-radius: 3px;
 }
 
-#prix, #partenaires, #lll {
+#partenaires, #lll {
   background: white;
+}
+#prix {
   position: relative;
 }
 #partenaires {
@@ -1799,7 +1801,7 @@ header {
       margin: 12px;
   }
   .sponsors img.flat {
-    width: 130px; 
+    width: 130px;
     max-width: none;
   }
 
