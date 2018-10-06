@@ -59,7 +59,7 @@
 					<li><a href="#deroule">Déroulé</a></li>
 					<li><a href="#prix">Prix</a></li>
 					<li><a href="#archivesnationales">Archives Nationales</a></li>
-					<li><a href="#lll">Liberté Living Lab</a></li>
+					<li><a href="#lll">Liberté Living-lab</a></li>
 					<li><a href="#partenaires">Partenaires</a></li>
 					<!-- <li class="has-dropdown"><a href="#blog">Blog</a>
 						<ul class="dropdown">
@@ -79,7 +79,7 @@
 
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1">
-						<div class="home-content">
+						<div class="home-content" id="head_title">
 							<h1 class="white-text" style="display:none">
 								Le hackaton des archives nationales
 							</h1>
@@ -116,360 +116,415 @@
 
 	<div id="defis" class="section">
 		<div id="defi-header">
-			<div class="section-header text-center">
-				<h2 class="title">Les défis du Hackathon</h2>
-			</div>
+			<img src="img/visuels/large_docs.jpg" />
 		</div>
 		<div class="container">
+			<div>
+				<div class="section-header text-center">
+					<h2 class="title">Les défis du Hackathon</h2>
+				</div>
+			</div>
 			<div class="row row-mb text-justify bg-grey row-defi">
+				<div class="defi-number"><h3>Défi 1</h3></div>
 				<div class="text-center">
 					<h2 class="defi-title">Le citoyen à l’honneur</h2>
-					<h3 class='title'>
-						Défi 1 : Optimiser la base de la Légion d’honneur et faciliter son accès aux citoyens
+					<h3 class="defi-title2">
+						 Optimiser la base de la Légion d’honneur et faciliter son accès aux citoyens
 					</h3>
 				</div>
 
-				<div class="col-md-offset-1 col-md-5">
-					<h4 class='text-center'>Contexte</h4>
+				<div class="col-md-offset-1 col-md-10">
+					<h4 class="">Contexte</h4>
 					<p>
 						Instituée le 19 mai 1802 par Napoléon Bonaparte, l'ordre national de la Légion d'honneur est l'institution qui est chargée de décerner la plus haute décoration honorifique française. Elle récompense depuis ses origines les citoyens (militaires ou civils) ayant rendu des « services éminents » à la Nation.<br>
 
 						"Léonore" est la base de données française qui répertorie les dossiers des membres de l'ordre national de la Légion d'honneur. Véritable mémoire de plus de deux siècles, elle comprend les dossiers des personnes promues depuis 1802 et décédées avant 1977. À ce jour, la base Léonore décrit 381 155 dossiers et 5 200 000 images et est organisée en un ensemble de notices et d’images.<br>
 
-						De nombreux citoyens consultent quotidiennement ces informations. Toutefois, les Archives nationales sont aujourd’hui confrontées à un problème d’obsolescence de cet outil et de complétude des données. Les technologies utilisées pour l’application actuelle sont vieillissantes, difficilement maintenables. Pour certains dossiers, toutes les informations n’ont pas été renseignées dans la base de données (date de naissance, prénom du légionnaire etc.) et par ailleurs certaines informations visibles sur les images mériteraient de venir enrichir les notices (ex. : numéro de matricule, date de décès, métier, dates de décoration, etc.).
+						De nombreux citoyens consultent quotidiennement ces informations. <a class="show-more" href="#defi_more_1"><i class="fas fa-plus-circle"></i> Lire la suite</a><span id="defi_more_1" class="more-text">Toutefois, les Archives nationales sont aujourd’hui confrontées à un problème d’obsolescence de cet outil et de complétude des données. Les technologies utilisées pour l’application actuelle sont vieillissantes, difficilement maintenables. Pour certains dossiers, toutes les informations n’ont pas été renseignées dans la base de données (date de naissance, prénom du légionnaire etc.) et par ailleurs certaines informations visibles sur les images mériteraient de venir enrichir les notices (ex. : numéro de matricule, date de décès, métier, dates de décoration, etc.).</span>
 					</p>
 				</div>
 
-				<div class="col-md-5">
-					<h4 class='text-center'>Axes de travail</h4>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Quels outils développer pour faciliter l’accès des publics et développer les usages de la base Léonore (interface proposant des modules de recherche optimisée et des outils pour améliorer l’expérience de l'utilisateur, outils de visualisation des données, etc.) ?
-						</p>
+				<div class="col-md-offset-1 col-md-10">
+					<h4 class='axes'>Axes de travail</h4>
+					<div class="col-md-6" style="padding-left: 0px;">
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Quels outils développer pour faciliter l’accès des publics et développer les usages de la base Léonore (interface proposant des modules de recherche optimisée et des outils pour améliorer l’expérience de l'utilisateur, outils de visualisation des données, etc.) ?
+							</p>
+						</div>
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Comment améliorer et optimiser l’interopérabilité des données (avec des bases externes type Wikidata, data.bnf.fr, etc.) mais aussi avec les référentiels des Archives nationales (notamment lieux, personnes physiques) ?
+							</p>
+						</div>
 					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Comment améliorer et optimiser l’interopérabilité des données (avec des bases externes type Wikidata, data.bnf.fr, etc.) mais aussi avec les référentiels des Archives nationales (notamment lieux, personnes physiques) ?
-						</p>
-					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Quels outils développer pour faciliter les alignements entre les données de Léonore et d’autres données externes ?
-						</p>
-					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Comment enrichir les données et diversifier les informations de la base Léonore (crowdsourcing / production participative de contenus, nouveaux systèmes d’indexation, etc.) ?
-						</p>
+					<div class="col-md-6" style="padding-right: 0px;">
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Quels outils développer pour faciliter les alignements entre les données de Léonore et d’autres données externes ?
+							</p>
+						</div>
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Comment enrichir les données et diversifier les informations de la base Léonore (crowdsourcing / production participative de contenus, nouveaux systèmes d’indexation, etc.) ?
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="row row-mb text-justify bg-grey row-defi">
+				<div class="defi-number"><h3>Défi 2</h3></div>
 				<div class="text-center">
 					<h2 class="defi-title">Actes du citoyen, citoyen en actes</h2>
-					<h3 class='title'>
-						Défi 2 : Analyser et visualiser les archives des notaires de Paris (XVII<sup>e</sup> – XX<sup>e</sup> siècles)
+					<h3 class="defi-title2">
+						Analyser et visualiser les archives des notaires de Paris (XVII<sup>e</sup> – XX<sup>e</sup> siècles)
 					</h3>
 				</div>
 
-				<div class="col-md-offset-1 col-md-5">
-					<h4 class='text-center'>Contexte</h4>
+				<div class="col-md-offset-1 col-md-10">
+					<h4 class="">Contexte</h4>
 					<p>
 						Nombreux sont les événements fondamentaux qui surviennent dans la vie d’un citoyen et dont on garde une trace chez les notaires : contrats de mariage, actes de notoriété, testaments, inventaires après décès, baux, contrats d’apprentissage, achats de biens immobiliers… Le notaire est un témoin privilégié de la société ; son rôle est d’expliciter et de mettre par écrit les actes du citoyen, dont il garde dans ses archives l’original : la minute.<br>
 						Les Archives nationales conservent les minutes des notaires parisiens depuis l’origine (XV<sup>e</sup> siècle). Pour certains notaires, les actes ont été entièrement analysés, donnant lieu à des notices homogènes, riches d’informations (nom des clients, origine géographique, profession, type d’acte, informations topographiques parisiennes...).<br>
-						Ce jeu de données détaillant les minutes de quelques notaires ayant exercé entre le XVII<sup>e</sup> et le début du XX<sup>e</sup> siècle permet d’aborder de façon exhaustive l’ensemble des activités pour lesquelles une étude notariale parisienne était sollicitée. Ces informations, exprimées de façon sérielle, mériteraient d’être présentées et analysées pour en saisir toute la richesse.<br>
+						Ce jeu de données détaillant les minutes de quelques notaires ayant exercé entre le XVII<sup>e</sup> et le début du XX<sup>e</sup> siècle permet d’aborder de façon exhaustive l’ensemble des activités pour lesquelles une étude notariale parisienne était sollicitée.
+						<a class="show-more" href="#defi_more_2"><i class="fas fa-plus-circle"></i> Lire la suite</a><span id="defi_more_2" class="more-text">Ces informations, exprimées de façon sérielle, mériteraient d’être présentées et analysées pour en saisir toute la richesse.<br>
 						Par ailleurs, les minutes de notaires font l’objet de très nombreuses demandes de copies. Un service administratif en ligne serait nécessaire, destiné à guider efficacement l’usager,depuis la formalisation de sa requête jusqu’à la mise à disposition de la reproduction numérique qu’il souhaite.
+						</span>
 					</p>
 				</div>
 
-				<div class="col-md-5">
-					<h4 class='text-center'>Axes de travail</h4>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Comment visualiser les données des actes notariés (analyse statistique de l’activité du notaire - restitutions chronologiques et thématiques -, cartographie des clients du notaire, aire d’influence du notaire…), afin d’en tirer des enseignements d’ordre économique, social ou sociologique et de renouveler la connaissance de la société parisienne ?
-						</p>
+				<div class="col-md-offset-1 col-md-10">
+					<h4 class='axes'>Axes de travail</h4>
+					<div class="col-md-6" style="padding-left: 0px;">
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Comment visualiser les données des actes notariés (analyse statistique de l’activité du notaire - restitutions chronologiques et thématiques -, cartographie des clients du notaire, aire d’influence du notaire…), afin d’en tirer des enseignements d’ordre économique, social ou sociologique et de renouveler la connaissance de la société parisienne ?
+							</p>
+						</div>
 					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Peut-on lier les données des Archives nationales avec des ressources externes, par exemple des référentiels issus du monde des notaires, les bottins, etc. ?
-						</p>
-					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Quels outils de reconnaissance d’entités nommées développer pour identifier les personnes mentionnées dans les actes ?
-						</p>
-					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Quel service en ligne proposer pour la reproduction à la demande des actes notariés ?
-						</p>
+					<div class="col-md-6" style="padding-right: 0px;">
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Peut-on lier les données des Archives nationales avec des ressources externes, par exemple des référentiels issus du monde des notaires, les bottins, etc. ?
+							</p>
+						</div>
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Quels outils de reconnaissance d’entités nommées développer pour identifier les personnes mentionnées dans les actes ?
+							</p>
+						</div>
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Quel service en ligne proposer pour la reproduction à la demande des actes notariés ?
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="row row-mb text-justify bg-grey row-defi">
+				<div class="defi-number"><h3>Défi 3</h3></div>
 				<div class="text-center">
 					<h2 class="defi-title">Le politique parle au citoyen</h2>
-					<h3 class='title'>
-						Défi 3 : Déchiffrer et analyser les discours politiques
+					<h3 class="defi-title2">
+						Déchiffrer et analyser les discours politiques
 					</h3>
 				</div>
 
-				<div class="col-md-offset-1 col-md-5">
-					<h4 class='text-center'>Contexte</h4>
+				<div class="col-md-offset-1 col-md-10">
+					<h4 class="">Contexte</h4>
 					<p>
 						Les personnalités politiques construisent des relations directes avec les citoyens : les discours qu’elles prononcent à de nombreuses occasions et les reportages photographiques réalisés lors des déplacements officiels ou des réceptions protocolaires attestent de leurs contacts avec la population.<br>
 						Grâce à ces documents, on peut reconstituer les voyages des personnalités politiques contemporaines, mesurer la fréquence de leurs déplacements, déterminer les zones géographiques qu’elles visitent le plus souvent, déterminer les activités protocolaires récurrentes et incontournables, analyser les thèmes qu’elles abordent et la façon dont elles s’adressent aux citoyens, reconstituer leur entourage, comprendre, en somme, comment fonctionne la politique.<br>
-						Ce défi rassemble un jeu de données issus des discours de deux hommes politiques, dont certains n’ont jamais été publiés : ceux du général de Gaulle, prononcés entre 1946 et 1969, et ceux de Michel Rocard, durant la période où il fut Premier Ministre (1988-1991). Il contient également des photoreportages, certains étant directement en lien avec les discours.<br>
+						<a class="show-more" href="#defi_more_3"><i class="fas fa-plus-circle"></i> Lire la suite</a><span id="defi_more_3" class="more-text"> Ce défi rassemble un jeu de données issus des discours de deux hommes politiques, dont certains n’ont jamais été publiés : ceux du général de Gaulle, prononcés entre 1946 et 1969, et ceux de Michel Rocard, durant la période où il fut Premier Ministre (1988-1991). Il contient également des photoreportages, certains étant directement en lien avec les discours.<br>
 						De multiples usages sont possibles autour de l’exploitation de ces données, notamment comprendre et déchiffrer le discours de ces deux hommes politiques et les restituer sur une interface innovante.
+						</span>
 					</p>
 				</div>
 
-				<div class="col-md-5">
-					<h4 class='text-center'>Axes de travail</h4>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Quels outils utiliser pour décrypter les discours politiques et renouveler leur analyse sémantique à travers l’exploitation statistique des lemmes (text mining) ?
-						</p>
+				<div class="col-md-offset-1 col-md-10">
+					<h4 class='axes'>Axes de travail</h4>
+					<div class="col-md-6" style="padding-left: 0px;">
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Quels outils utiliser pour décrypter les discours politiques et renouveler leur analyse sémantique à travers l’exploitation statistique des lemmes (text mining) ?
+							</p>
+						</div>
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Quelles interfaces de navigation proposer permettant de marier dans un seul outil de visualisation discours et photographies, et de parcourir les données, par le fil de la chronologie et par la cartographie des déplacements ?
+							</p>
+						</div>
 					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Quelles interfaces de navigation proposer permettant de marier dans un seul outil de visualisation discours et photographies, et de parcourir les données, par le fil de la chronologie et par la cartographie des déplacements ?
-						</p>
-					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Quelles associations établir entre les discours et les reportages photographiques ?
-						</p>
-					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Comment enrichir les reportages photographiques en permettant l’identification automatisée des visages et leur annotation par le public (crowdsourcing) ?
-						</p>
+					<div class="col-md-6" style="padding-right: 0px;">
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Quelles associations établir entre les discours et les reportages photographiques ?
+							</p>
+						</div>
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Comment enrichir les reportages photographiques en permettant l’identification automatisée des visages et leur annotation par le public (crowdsourcing) ?
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="row row-mb text-justify bg-grey row-defi">
+				<div class="defi-number"><h3>Défi 4</h3></div>
 				<div class="text-center">
 					<h2 class="defi-title">RTFM ! Read The French Mountain !</h2>
-					<h3 class='title'>
-						Défi 4 : Comprendre l’évolution du paysage de montagne à travers la photographie
+					<h3 class="defi-title2">
+						Comprendre l’évolution du paysage de montagne à travers la photographie
 					</h3>
 				</div>
 
-				<div class="col-md-offset-1 col-md-5">
-					<h4 class='text-center'>Contexte</h4>
+				<div class="col-md-offset-1 col-md-10">
+					<h4 class="">Contexte</h4>
 					<p>
 						Au XIX<sup>e</sup> siècle, les montagnes ont subi d’importantes catastrophes naturelles, et l’État français, conscient de la dégradation importante du paysage, élabore à partir des années 1860 une politique visant à protéger, restaurer et conserver cet environnement naturel : c’est l’objet du service de la restauration des terrains de montagne (RTM).<br>
 						Les ingénieurs responsables des travaux de reboisement et d’aménagement prennent dès cette époque-là de nombreux clichés, pour alerter le public sur la dégradation du paysage et présenter leurs travaux. Minutieusement documentés, ces clichés photographiques constituent une source de premier plan pour découvrir sur un siècle l’évolution du paysage des montagnes, la vie quotidienne de leurs habitants, mais aussi l’action de l’homme sur l’environnement et la nécessité de le protéger.<br>
+						<a class="show-more" href="#defi_more_4"><i class="fas fa-plus-circle"></i> Lire la suite</a><span id="defi_more_4" class="more-text">
 						Les Archives nationales souhaitent mieux faire connaître et partager ce fonds photographique à la richesse insoupçonnée afin de contribuer à la connaissance et à la protection de cet environnement fragile.
+						</span>
 					</p>
 				</div>
 
-				<div class="col-md-5">
-					<h4 class='text-center'>Axes de travail</h4>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Comment faire revivre l’exceptionnel fonds photographique de la restauration des terrains de montagne? Quelles applications imaginer pour que chacun, notamment les amoureux de la nature, puisse découvrir ces images, comparer le paysage ancien avec l’actuel et s’approprier l’histoire de l’environnement ?
-						</p>
+				<div class="col-md-offset-1 col-md-10">
+					<h4 class='axes'>Axes de travail</h4>
+					<div class="col-md-6" style="padding-left: 0px;">
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Comment faire revivre l’exceptionnel fonds photographique de la restauration des terrains de montagne? Quelles applications imaginer pour que chacun, notamment les amoureux de la nature, puisse découvrir ces images, comparer le paysage ancien avec l’actuel et s’approprier l’histoire de l’environnement ?
+							</p>
+						</div>
 					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Comment relier ces images aux référentiels géographiques ? (liens avec le référentiel des lieux des Archives nationales, cartographie, etc.)
-						</p>
-					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Comment connecter les clichés avec des ressources externes (vocabulaires, bases d’images, etc.) ?
-						</p>
-					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Comment le public peut-il enrichir les données et réutiliser les contenus ?
-						</p>
+					<div class="col-md-6" style="padding-right: 0px;">
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Comment relier ces images aux référentiels géographiques ? (liens avec le référentiel des lieux des Archives nationales, cartographie, etc.)
+							</p>
+						</div>
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Comment connecter les clichés avec des ressources externes (vocabulaires, bases d’images, etc.) ?
+							</p>
+						</div>
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Comment le public peut-il enrichir les données et réutiliser les contenus ?
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="row row-mb text-justify bg-grey row-defi">
+				<div class="defi-number"><h3>Défi 5</h3></div>
 				<div class="text-center">
 					<h2 class="defi-title">Ils sont devenus citoyens français</h2>
-					<h3 class='title'>
-						Défi 5 : Simplifier l’accès aux décrets de naturalisation
+					<h3 class="defi-title2">
+						Simplifier l’accès aux décrets de naturalisation
 					</h3>
 				</div>
 
-				<div class="col-md-offset-1 col-md-5">
-					<h4 class='text-center'>Contexte</h4>
+				<div class="col-md-offset-1 col-md-10">
+					<h4 class="">Contexte</h4>
 					<p>
 						À partir de 1809, l’attribution de la nationalité française est prononcée par un décret de naturalisation. Les décrets de naturalisation font partie des documents les plus demandés aux Archives nationales par le public, qu’il s’agisse de retracer le parcours d’un individu, de reconstituer l’histoire familiale, d’étudier l’histoire des migrations en France, ou tout simplement pour justifier sa nationalité française.<br>
 						La recherche d’un décret de naturalisation demeure néanmoins très complexe, pour l’usager comme pour les Archives nationales, en raison des spécificités liées à la situation des individus et des modalités d’attribution de la citoyenneté. Pour retrouver le dossier d’une personne, il faut suivre un parcours de recherche difficile au moyen de divers inventaires plus ou moins détaillés.<br>
-						Un service administratif en ligne, destiné à guider efficacement le public, serait nécessaire pour la recherche d'un décret de naturalisation. De même, les outils de recherche pourraient être enrichis en trouvant le moyen de récupérer des informations écrites sous forme manuscrite dans les dossiers de naturalisation.
+						<a class="show-more" href="#defi_more_5"><i class="fas fa-plus-circle"></i> Lire la suite</a><span id="defi_more_5" class="more-text">
+							Un service administratif en ligne, destiné à guider efficacement le public, serait nécessaire pour la recherche d'un décret de naturalisation. De même, les outils de recherche pourraient être enrichis en trouvant le moyen de récupérer des informations écrites sous forme manuscrite dans les dossiers de naturalisation.
+						</span>
 					</p>
 				</div>
 
-				<div class="col-md-5">
-					<h4 class='text-center'>Axes de travail</h4>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Comment développer un service administratif en ligne performant pour guider le public dans des démarches de recherche complexes ?
-						</p>
+				<div class="col-md-offset-1 col-md-10">
+					<h4 class='axes'>Axes de travail</h4>
+					<div class="col-md-6" style="padding-left: 0px;">
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Comment développer un service administratif en ligne performant pour guider le public dans des démarches de recherche complexes ?
+							</p>
+						</div>
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Comment enrichir les métadonnées d’identification des individus à partir d’informations manuscrites contenues dans leurs dossiers ?
+							</p>
+						</div>
 					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Comment enrichir les métadonnées d’identification des individus à partir d’informations manuscrites contenues dans leurs dossiers ?
-						</p>
-					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Comment relier certaines données (profession, lieu de naissance, etc.) aux référentiels des Archives nationales ?
-						</p>
-					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Comment tirer des enseignements des données sociologiques et géographiques à l’aide d’outils statistiques ?
-						</p>
+					<div class="col-md-6" style="padding-right: 0px;">
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Comment relier certaines données (profession, lieu de naissance, etc.) aux référentiels des Archives nationales ?
+							</p>
+						</div>
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Comment tirer des enseignements des données sociologiques et géographiques à l’aide d’outils statistiques ?
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="row row-mb text-justify bg-grey row-defi">
+				<div class="defi-number"><h3>Défi 6</h3></div>
 				<div class="text-center">
 					<h2 class="defi-title">Les clés d’accès à quatorze siècles d’histoire</h2>
-					<h3 class='title'>
-						Défi 6 : Optimiser l’utilisation de l’ensemble des inventaires des Archives nationales
+					<h3 class="defi-title2">
+						Optimiser l’utilisation de l’ensemble des inventaires des Archives nationales
 					</h3>
 				</div>
 
-				<div class="col-md-offset-1 col-md-5">
-					<h4 class='text-center'>Contexte</h4>
+				<div class="col-md-offset-1 col-md-10">
+					<h4 class="">Contexte</h4>
 					<p>
 						Les Archives nationales diffusent en ligne sur leur salle des inventaires virtuelle des milliers de notices décrivant les archives conservées par l'institution : archives publiques provenant des administrations centrales de l'État, archives des notaires de Paris et fonds privés d'intérêt national.<br>
 						Ces archives sont, pour une faible partie, numérisées et directement accessibles en ligne (près de 8 millions d'images numérisées).
 					</p>
 				</div>
 
-				<div class="col-md-5">
-					<h4 class='text-center'>Axes de travail</h4>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Quels outils développer pour reconnaître des entités nommées (patronymes, noms de lieux, organisations, etc.) ?
-						</p>
+				<div class="col-md-offset-1 col-md-10">
+					<h4 class='axes'>Axes de travail</h4>
+					<div class="col-md-6" style="padding-left: 0px;">
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Quels outils développer pour reconnaître des entités nommées (patronymes, noms de lieux, organisations, etc.) ?
+							</p>
+						</div>
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Comment les associer aux référentiels des Archives nationales ?
+							</p>
+						</div>
 					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Comment les associer aux référentiels des Archives nationales ?
-						</p>
-					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Comment exploiter les métadonnées pour proposer d’autres modalités de présentation et de recherche des ressources des Archives nationales ?
-						</p>
+					<div class="col-md-6" style="padding-right: 0px;">
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Comment exploiter les métadonnées pour proposer d’autres modalités de présentation et de recherche des ressources des Archives nationales ?
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="row row-mb text-justify bg-grey row-defi">
+				<div class="defi-number"><h3>Défi 7</h3></div>
 				<div class="text-center">
 					<h2 class="defi-title">Les archives dans le web de données</h2>
-					<h3 class='title'>
-						Défi 7 : Améliorer l’utilisation des référentiels des Archives nationales, favoriser leur interopérabilité
+					<h3 class="defi-title2">
+						Améliorer l’utilisation des référentiels des Archives nationales, favoriser leur interopérabilité
 					</h3>
 				</div>
 
-				<div class="col-md-offset-1 col-md-5">
-					<h4 class='text-center'>Contexte</h4>
+				<div class="col-md-offset-1 col-md-10">
+					<h4 class="">Contexte</h4>
 					<p>
 						Les Archives nationales utilisent actuellement une vingtaine de référentiels pour indexer le contenu de leurs inventaires et décrire les entités (personnes, familles et collectivités) qui ont produit les fonds d’archives qu’elles conservent (référentiel des organismes producteurs des archives, des lieux, des personnes physiques et morales, des activités (métiers), des fonctions, etc.).<br>
-						Ils contribuent à faciliter les recherches des utilisateurs au sein de la salle des inventaires virtuelle des Archives nationales. Les notices qu’ils contiennent constituent potentiellement autant de ponts entre les métadonnées produites par les Archives nationales et les métadonnées d’autres institutions. En cours d’enrichissement et d’évolution technique et fonctionnelle, ils permettent aux archivistes de normaliser leur travail d’indexation et en particulier de construire une base de connaissances sur le contexte d’origine des archives.<br>
+						Ils contribuent à faciliter les recherches des utilisateurs au sein de la salle des inventaires virtuelle des Archives nationales. Les notices qu’ils contiennent constituent potentiellement autant de ponts entre les métadonnées produites par les Archives nationales et les métadonnées d’autres institutions.
+						<a class="show-more" href="#defi_more_7"><i class="fas fa-plus-circle"></i> Lire la suite</a><span id="defi_more_7" class="more-text">
+							En cours d’enrichissement et d’évolution technique et fonctionnelle, ils permettent aux archivistes de normaliser leur travail d’indexation et en particulier de construire une base de connaissances sur le contexte d’origine des archives.<br>
 						Cependant, les référentiels sont encore sous-utilisés par les archivistes et les utilisateurs finaux.
+						</span>
 					</p>
 				</div>
 
-				<div class="col-md-5">
-					<h4 class='text-center'>Axes de travail</h4>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Comment améliorer l’indexation des inventaires à l’aide des référentiels ?
-						</p>
+				<div class="col-md-offset-1 col-md-10">
+					<h4 class='axes'>Axes de travail</h4>
+					<div class="col-md-6" style="padding-left: 0px;">
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Comment améliorer l’indexation des inventaires à l’aide des référentiels ?
+							</p>
+						</div>
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Quels dispositifs de visualisation imaginer pour aider à évaluer quantitativement et qualitativement l’indexation des inventaires dans leur état actuel ?
+							</p>
+						</div>
 					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Quels dispositifs de visualisation imaginer pour aider à évaluer quantitativement et qualitativement l’indexation des inventaires dans leur état actuel ?
-						</p>
-					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Quels résultats pourrait donner un travail de liage des données des référentiels avec des bases externes de type Wikidata ?
-						</p>
-					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Quels outils développer pour faciliter l’interopérabilité entre les référentiels des Archives nationales et des référentiels externes (data.bnf.fr, Wikidata, Geonames, etc.) ?
-						</p>
+					<div class="col-md-6" style="padding-right: 0px;">
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Quels résultats pourrait donner un travail de liage des données des référentiels avec des bases externes de type Wikidata ?
+							</p>
+						</div>
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Quels outils développer pour faciliter l’interopérabilité entre les référentiels des Archives nationales et des référentiels externes (data.bnf.fr, Wikidata, Geonames, etc.) ?
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="row row-mb text-justify bg-grey row-defi">
+				<div class="defi-number"><h3>Défi 8</h3></div>
 				<div class="text-center">
 					<h2 class="defi-title">Observatoire des entrées d’archives</h2>
-					<h3 class='title'>
-						Défi 8 : Optimiser le suivi et la visualisation du registre des entrées annuelles
+					<h3 class="defi-title2">
+						Optimiser le suivi et la visualisation du registre des entrées annuelles
 					</h3>
 				</div>
 
-				<div class="col-md-offset-1 col-md-5">
-					<h4 class='text-center'>Contexte</h4>
+				<div class="col-md-offset-1 col-md-10">
+					<h4 class="">Contexte</h4>
 					<p>
 						Parmi leurs missions fondamentales, les Archives nationales assurent la collecte règlementaire des documents et des données produits par les administrations centrales et les grandes structures de l’État lorsque elles n’en ont plus l’utilité immédiate. Elles accueillent aussi des archives jusque-là détenues en main privée. Chaque année, les Archives nationales établissent un bilan des entrées d’archives qu’elles ont reçues en leurs murs.<br>
 						Ainsi, en 2017, ce sont plus de 4,7 kilomètres linéaires de documents sur support traditionnel (papier, photographies ou calques) et 4,7 To de documents nativement numériques qui sont entrés par la voie ordinaire des versements en provenance de la présidence de la République, des ministères et des opérateurs nationaux ou encore par dons, dépôts et achats pour les archives privées.<br>
-						Le registre des entrées des Archives nationales établit la liste de ces entrées, assortie de l’identification des producteurs (administrations ministérielles, opérateurs de l’État, organismes ou personnes privés), de leur domaine d’activité, de la date des documents versés, de la nature de leur support. La visualisation et le suivi de ces entrées est un enjeu clé pour les Archives Nationales.
+						<a class="show-more" href="#defi_more_8"><i class="fas fa-plus-circle"></i> Lire la suite</a><span id="defi_more_8" class="more-text">
+							Le registre des entrées des Archives nationales établit la liste de ces entrées, assortie de l’identification des producteurs (administrations ministérielles, opérateurs de l’État, organismes ou personnes privés), de leur domaine d’activité, de la date des documents versés, de la nature de leur support. La visualisation et le suivi de ces entrées est un enjeu clé pour les Archives Nationales.
+						</span>
 					</p>
 				</div>
 
-				<div class="col-md-5">
-					<h4 class='text-center'>Axes de travail</h4>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Quels outils de visualisation proposer pour permettre une meilleure connaissance et un suivi optimal des entrées d’archives ?
-						</p>
+				<div class="col-md-offset-1 col-md-10">
+					<h4 class='axes'>Axes de travail</h4>
+					<div class="col-md-6" style="padding-left: 0px;">
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Quels outils de visualisation proposer pour permettre une meilleure connaissance et un suivi optimal des entrées d’archives ?
+							</p>
+						</div>
 					</div>
-					<div class="feature">
-						<i class="fas fa-arrow-circle-right"></i>
-						<p>
-							Comment évaluer la collecte en visualisant sur plusieurs années les secteurs producteurs d'archives et ceux qui le sont moins ?
-						</p>
+					<div class="col-md-6" style="padding-right: 0px;">
+						<div class="feature">
+							<i class="fas fa-arrow-circle-right"></i>
+							<p>
+								Comment évaluer la collecte en visualisant sur plusieurs années les secteurs producteurs d'archives et ceux qui le sont moins ?
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -578,23 +633,19 @@ Proin aliquet ut turpis sit amet cursus. Etiam ac turpis luctus, placerat justo 
 		<div class="container">
 			<div class="row">
 				<div class="col-md-offset-1 col-md-10">
-					<div class="row flex sponsors center">
-						<div>
-							<img src='./img/visuels2/LLL_logo.jpg' alt='logo LLL' />
-						</div>
-						<div class="section-header text-center">
-							<h2 class="title">Liberté Living Lab</h2>
-						</div>
+					<div class="section-header text-center">
+						<h2 class="title">Liberté Living-lab</h2>
 					</div>
 					<p>
-						Le <em>Liberté Living-Lab</em>, lieu d’innovation technologique, civique et sociale, a ouvert ses portes le 18 octobre 2016, dans le 2<sup>ème</sup> arrondissement de Paris. Lieu d’expérimentation pluridisciplinaire et multiculturel, il regroupe sur 2000 m<sup>2</sup> des acteurs visionnaires et engagés sur des enjeux de société, à l’avant-garde du changement. Le <em>Liberté Living-Lab</em> entend accélérer le développement d’initiatives en faveur d’enjeux de bien commun. Son ambition : innover, inclure et œuvrer à l’émergence de projets et d’une filière entrepreneuriale tech sur des problématiques d’intérêt général.
+						Le <em>Liberté Living-lab</em>, lieu d’innovation technologique, civique et sociale, a ouvert ses portes le 18 octobre 2016, dans le 2<sup>ème</sup> arrondissement de Paris. Lieu d’expérimentation pluridisciplinaire et multiculturel, il regroupe sur 2000 m<sup>2</sup> des acteurs visionnaires et engagés sur des enjeux de société, à l’avant-garde du changement. Le <em>Liberté Living-lab</em> entend accélérer le développement d’initiatives en faveur d’enjeux de bien commun. Son ambition : innover, inclure et œuvrer à l’émergence de projets et d’une filière entrepreneuriale tech sur des problématiques d’intérêt général.<br>
 					</p>
+					<blockquote style="position:relative; top: 40px;"><b>Liberté Living-lab</b>&nbsp; 9 Rue d'Alexandrie, 75002 Paris, France</blockquote>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<iframe scrolling="no" title="Google Maps" aria-label="Google Maps" src="https://static.parastorage.com/services/santa/1.4664.27/static/external/googleMap.html?language=fr&amp;lat=48.8679657&amp;long=2.3506485999999995&amp;address=9 Rue d'Alexandrie, 75002 Paris, France&amp;addressInfo=Liberté Living Lab&amp;showZoom=true&amp;showStreetView=false&amp;showMapType=false" width="100%" height="400px" frameborder="0"></iframe>
+	<iframe scrolling="no" style="position: relative; background: white;" title="Google Maps" aria-label="Google Maps" src="https://static.parastorage.com/services/santa/1.4664.27/static/external/googleMap.html?language=fr&amp;lat=48.8679657&amp;long=2.3506485999999995&amp;address=9 Rue d'Alexandrie, 75002 Paris, France&amp;addressInfo=Liberté Living Lab, 9 Rue d'Alexandrie, 75002 Paris&amp;showZoom=true&amp;showStreetView=false&amp;showMapType=false" width="100%" height="400px" frameborder="0"></iframe>
 
 	<div id="partenaires" class="section sm-padding">
 		<div class="container">
@@ -612,7 +663,7 @@ Proin aliquet ut turpis sit amet cursus. Etiam ac turpis luctus, placerat justo 
 					<img src='./img/logos/logo-semaine-inov-num.png' alt='logo partenaire' />
 				</div>
 				<div>
-					<img src='./img/logos/logo-transparent-bleu.png' alt='logo partenaire' />
+					<img src='./img/logos/logo-transparent-bleu.png' alt='logo partenaire' class="flat" />
 				</div>
 			</div>
 		</div>
@@ -677,6 +728,26 @@ Proin aliquet ut turpis sit amet cursus. Etiam ac turpis luctus, placerat justo 
 	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+		$('.show-more').on('click', function(e){
+			e.preventDefault();
+			var id = $(this).attr('href')
+			$(this).remove()
+			$(id).fadeIn(); //css('display', 'inline')
+		})
+
+		$(document).ready(function() {
+		    var title = $('#head_title');
+		    var height = screen.height;
+				$(window).scroll(function () {
+            if ($(this).scrollTop() > height) {
+                title.fadeOut();
+            } else {
+                title.fadeIn();
+            }
+        });
+		});
+	</script>
 
 </body>
 

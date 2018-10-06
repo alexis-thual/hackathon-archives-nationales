@@ -66,6 +66,10 @@ Table OF Contents
     max-height: 150px;
     margin: 30px;
 }
+.sponsors img.flat {
+  width: 250px;
+  max-width: none;
+}
 
 .row-mb {
     margin-bottom: 30px;
@@ -220,6 +224,10 @@ a:hover, a:focus {
   color: rgb(188, 204, 212)
 }
 
+.archive-color {
+  color: rgb(70, 112, 142)
+}
+
 ::-moz-selection {
     background-color: #6195FF;
     color: #FFF;
@@ -307,7 +315,7 @@ ul, ol {
   	display:block;
   	height:4px;
   	width:40px;
-  	background-color: #6195FF;
+  	background-color: rgb(70, 112, 142);
     margin-top: 20px;
 }
 
@@ -362,7 +370,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     color: #FFF;
 }
 #nav.fixed-nav .small-btn {
-    background: #6195FF;
+    background: rgb(70, 112, 142);
     margin-top: 6px;
 }
 
@@ -413,6 +421,15 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     }
     #nav.nav-transparent .navbar-brand .logo {
         display: block !important;
+    }
+    .sponsors img {
+        max-width: 120px;
+        max-height: 120px;
+        margin: 20px;
+    }
+    .sponsors img.flat {
+      width: 180px;
+      max-width: none;
     }
 }
 
@@ -469,12 +486,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     }
     .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
         background: transparent;
-        color: #6195FF;
+        color: rgb(70, 112, 142);
     }
     .main-nav>li>a:after {
         content: "";
         display: block;
-        background-color: #6195FF;
+        background-color: rgb(247, 104, 34);
         height: 2px;
         width: 0%;
         -webkit-transition: 0.2s width;
@@ -709,7 +726,7 @@ header {
 }
 
 #home .home-wrapper {
-    position: absolute;
+    position: fixed;
     left: 0px;
     right: 0px;
     top: 50%;
@@ -794,13 +811,14 @@ header {
 	Portfolio
 \*------------------------------------*/
 
+#defi-header img {
+  width: 100%
+}
 #defi-header {
-  background: url('../img/visuels/large_docs.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 200px;
+  background: white;
+  height: 300px;
+  overflow: hidden;
   margin-bottom: 40px;
-  padding-top: 90px;
 }
 #defi-header h2 {
   color: rgb(62, 42, 19);
@@ -815,11 +833,61 @@ header {
     margin-top: 20px;
 
 }
-
-.defi-title {
-  font-size: 3rem;
+#defis {
+  background: white;
 }
 
+#defis .show-more {
+  color: rgb(70, 112, 142)
+}
+
+#defis .more-text {
+  display: none;
+}
+
+#defis h4 {
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+#defis h4.axes {
+  margin-bottom: 0;
+}
+
+.defi-number {
+  float: left;
+  padding-left: 15px
+}
+.defi-number h3{
+  text-transform: uppercase;
+  color: rgb(70, 112, 142);
+  font-weight: bolder;
+  font-size: 2.5rem;
+  border: 2px solid;
+  padding: 8px;
+  padding-bottom: 4px;
+  border-radius: 3px;
+}
+
+#prix, #partenaires, #lll {
+  background: white;
+  position: relative;
+}
+#partenaires {
+  margin-top: -9px;
+}
+
+.defi-title {
+  font-size: 2.3rem;
+}
+
+.defi-title2 {
+  font-size: 2.2rem;
+}
+
+#defi-footer {
+  position: relative;
+}
 #defi-footer img {
   width: 100%
 }
@@ -998,7 +1066,7 @@ header {
     float: left;
     padding: 5px;
     /* border-radius: 50%; */
-    color: #6195FF;
+    color: rgb(70, 112, 142);
     /* border: 1px solid #6195FF; */
     margin-right: 5px;
 }
@@ -1290,6 +1358,8 @@ header {
 /*------------------------------------*\
 	Blog post
 \*------------------------------------*/
+
+
 
 #main .blog .blog-content {
   padding: 20px 0px 0px;
@@ -1657,12 +1727,23 @@ header {
 \*------------------------------------*/
 
 
-@media only screen and (max-width: 991px) {}
+@media only screen and (max-width: 991px) {
+  #defis .col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 
 @media only screen and (max-width: 767px) {
+  #defis .container {
+    padding-left: 0px;
+  }
+  .defi-number {
+    float: none !important;
+    text-align: center;
+  }
   #defi-header {
-    padding-top: 60px;
-    height: 150px;
+    height: 200px;
   }
   .section-header h2.title {
   		font-size:31.5px;
@@ -1696,8 +1777,7 @@ header {
 
 @media only screen and (max-width: 480px) {
   #defi-header {
-    padding-top: 40px;
-    height: 130px;
+    height: 150px;
   }
 
   #defi-footer img {
@@ -1712,6 +1792,16 @@ header {
   #numbers [class*='col-xs'] {
 		  width:100%;
 	}
+
+  .sponsors img {
+      max-width: 90px;
+      max-height: 90px;
+      margin: 12px;
+  }
+  .sponsors img.flat {
+    width: 130px; 
+    max-width: none;
+  }
 
   .contact-form .input:nth-child(1), .contact-form .input:nth-child(2) {
       width: 100%;
@@ -1828,7 +1918,7 @@ header {
   	height: 50px;
   	line-height: 50px;
   	text-align: center;
-  	background: #6195FF;
+  	background: rgb(70, 112, 142);
   	border-radius:3px;
   	color: #FFF;
   	z-index: 9999;
