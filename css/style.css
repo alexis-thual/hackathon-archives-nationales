@@ -40,8 +40,22 @@ Table OF Contents
 
 /* PERSO */
 
+@font-face {
+    font-family: Coolvetica;
+	src: url('../fonts/coolvetica-rg.ttf');
+}
+
+#hashtag {
+    position: absolute;
+    bottom: 10vh;
+    right: 10%;
+    color: #FFF;
+}
+
 #main-title span {
+    font-family: 'Coolvetica', Arial;
     font-size: 90px;
+    letter-spacing: 5px;
     color: rgb(247, 104, 34);
     text-shadow: 4px 0px rgb(178, 187, 207);
 }
@@ -126,7 +140,6 @@ Table OF Contents
     padding: 40px 20px;
     border: 2px solid #F5F8FA;
     margin: 15px 0px;
-    background-color: #EBF1F5B3;
 }
 
 .prix_about i {
@@ -171,15 +184,15 @@ Table OF Contents
 /* -- typography -- */
 
 body {
-    font-family: arial, 'Varela Round', sans-serif;
+    font-family: 'Avenir', 'Varela Round', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
-    color: #50555D;
+    color: #868F9B;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: arial, 'Montserrat', sans-serif;
+    font-family: 'Avenir', 'Montserrat', sans-serif;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -374,22 +387,14 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .small-btn {
-    padding: 5px 15px !important;
-}
-a.small-btn {
-  padding: 8px 15px !important;
-  color: white !important;
+    padding: 5px 15px;
 }
 
 .main-btn, .small-btn {
     background: rgb(247, 104, 34);
-    color: #FFF !important;
-}
-#nav .small-btn {
-    display: none !important;
+    color: #FFF;
 }
 #nav.fixed-nav .small-btn {
-    display: block !important;
     background: rgb(70, 112, 142);
     margin-top: 6px;
 }
@@ -465,14 +470,6 @@ a.small-btn {
     transition: 0.2s padding;
     z-index: 999;
 }
-#nav {
-    position: fixed;
-    left: 0;
-    right: 0;
-    padding: 0px 0px;
-    background-color: #FFF !important;
-    border-bottom: 1px solid #EEE;
-}
 
 #nav.navbar {
     border: none;
@@ -510,13 +507,13 @@ a.small-btn {
         padding: 15px 0px;
     }
     #nav.nav-transparent:not(.fixed-nav) .main-nav>li>a {
-        /*color: #fff;*/
+        color: #fff;
     }
     .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
         background: transparent;
         color: rgb(70, 112, 142);
     }
-    .main-nav>li>a:not(.small-btn):after {
+    .main-nav>li>a:after {
         content: "";
         display: block;
         background-color: rgb(247, 104, 34);
@@ -882,37 +879,21 @@ header {
   margin-bottom: 0;
 }
 
-#defis p {
-  font-size: 0.93em;
-}
-
 .defi-number {
   float: left;
   padding-left: 15px
 }
-.defi-number-right {
-  float: right;
-  padding-right: 15px
-}
-.defi-number-right {
-  padding-right: 145px;
+.defi-number h3{
+  text-transform: uppercase;
+  color: rgb(70, 112, 142);
+  font-weight: bolder;
+  font-size: 2.5rem;
+  border: 2px solid;
+  padding: 8px;
+  padding-bottom: 4px;
+  border-radius: 3px;
 }
 
-.defi-number h3, .defi-number-right h3{
-  text-transform: uppercase;
-  color: rgb(247, 104, 34);
-  font-weight: bolder;
-  font-size: 3.5rem;
-  border: 4px solid;
-  padding: 18px;
-  padding-bottom: 15px;
-  border-radius: 4px;
-  text-align: center;
-  position: absolute;
-}
-#head_title {
-  font-family: "Avenir";
-}
 #partenaires, #lll {
   background: white;
 }
@@ -1756,8 +1737,8 @@ header {
   line-height: 50px;
   text-align: center;
   border-radius: 3px;
-  color: rgb(247, 104, 34);
-  font-size: 38px;
+  background-color: #6195FF;
+  color:#FFF;
 }
 
 .footer-copyright p {
@@ -1784,22 +1765,9 @@ header {
   #defis .container {
     padding-left: 0px;
   }
-  .defi-number, .defi-number-right {
+  .defi-number {
     float: none !important;
     text-align: center;
-  }
-  .defi-number h3, .defi-number-right h3 {
-    position: inherit;
-  }
-  .defi-number br, .defi-number-right br {
-    display: none;
-  }
-  .defi-number-right {
-    padding-right: 0;
-    padding-left: 15px;
-  }
-  .defi-number .defi-number-text, .defi-number-right .defi-number-text {
-    margin-right: 10px;
   }
   #defi-header {
     height: 200px;
@@ -1813,7 +1781,7 @@ header {
   		font-size:14px;
 	}
 
-  .small-btn, a.small-btn {
+  .small-btn {
   		padding: 4px 11px;
   		font-size: 12px;
 	}
