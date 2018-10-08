@@ -865,7 +865,7 @@ header {
   background: white;
 }
 
-#defis .show-more {
+#defis .show-more, #defis .show-less {
   color: rgb(70, 112, 142)
 }
 
