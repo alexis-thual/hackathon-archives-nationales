@@ -105,11 +105,32 @@ body, button, a {
 }
 
 .schedule span {
-    width: 100px;
+    width: 80px;
 }
 
 .schedule .text-left {
   width: 500px;
+}
+
+.schedule p {
+    flex-grow: 2;
+    width: 100%;
+    vertical-align: middle;
+    margin: 0;
+    padding: 15px;
+}
+
+#deroule h4 {
+    margin: 15px 0px;
+}
+
+.schedule .flex {
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.schedule span {
+    border-right: 2px solid #EEE;
 }
 
 .sponsors img {
