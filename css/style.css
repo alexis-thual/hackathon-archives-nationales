@@ -55,9 +55,9 @@ Table OF Contents
 #main-title span {
     font-family: 'Coolvetica', Arial;
     font-size: 90px;
-    letter-spacing: 5px;
+    letter-spacing: 6px;
     color: rgb(247, 104, 34);
-    text-shadow: 4px 0px rgb(178, 187, 207);
+    text-shadow: 6px 0px rgb(178, 187, 207);
 }
 
 #main-title span em {
@@ -751,7 +751,7 @@ header {
 }
 
 #home .home-wrapper {
-    position: fixed;
+    position: absolute;
     left: 0px;
     right: 0px;
     top: 50%;
@@ -762,7 +762,7 @@ header {
 }
 
 .home-content h1 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .home-content button {
   margin-top: 20px;
