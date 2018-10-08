@@ -887,11 +887,22 @@ header {
   text-transform: uppercase;
   color: rgb(70, 112, 142);
   font-weight: bolder;
-  font-size: 2.5rem;
-  border: 2px solid;
-  padding: 8px;
-  padding-bottom: 4px;
-  border-radius: 3px;
+  font-size: 3.5rem;
+  border: 4px solid;
+  padding: 18px;
+  padding-bottom: 15px;
+  border-radius: 4px;
+  text-align: center;
+  position: absolute;
+}
+
+.cadre_minus {
+  width: 100%;
+  text-align: center;
+  clear:both;
+}
+#head_title {
+  font-family: "Avenir";
 }
 
 #partenaires, #lll {
