@@ -40,6 +40,17 @@ Table OF Contents
 
 /* PERSO */
 
+#main-title span {
+    font-size: 90px;
+    color: rgb(247, 104, 34);
+    text-shadow: 4px 0px rgb(178, 187, 207);
+}
+
+#main-title span em {
+    font-style: normal;
+    color: rgb(70, 112, 142);
+}
+
 .title-white{
     color: #F5F8FA;
 }
