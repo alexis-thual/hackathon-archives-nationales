@@ -40,11 +40,33 @@ Table OF Contents
 
 /* PERSO */
 
+@font-face {
+    font-family: Coolvetica;
+    src: url('../fonts/coolvetica-rg.ttf');
+}
+
+body, button, a {
+    font-family: 'Arial', sans-serif;
+}
+
+.cadre_minus {
+    clear: both;
+    text-align: center;
+}
+
+#hashtag {
+    position: absolute;
+    bottom: 10vh;
+    right: 10%;
+    color: #FFF;
+}
+
 #main-title span {
-    font-size: 90px;
-    letter-spacing: 6px;
+    font-family: 'Coolvetica', Arial;
+    font-size: 120px;
+    letter-spacing: 8px;
     color: rgb(247, 104, 34);
-    text-shadow: 6px 0px rgb(178, 187, 207);
+    text-shadow: 8px 0px rgb(171, 187, 207);
 }
 
 #main-title span em {
