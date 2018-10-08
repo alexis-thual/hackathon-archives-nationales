@@ -45,6 +45,10 @@ Table OF Contents
     src: url('../fonts/coolvetica-rg.ttf');
 }
 
+.btn-lg {
+    font-size: 30px;
+}
+
 body, button, a {
     font-family: 'Arial', sans-serif;
 }
@@ -59,6 +63,12 @@ body, button, a {
     bottom: 10vh;
     right: 10%;
     color: #FFF;
+    /* color: rgb(247, 104, 34); */
+
+    /* background-color: rgb(247, 104, 34); */
+    /* background-color: #FFF; */
+    /* border-radius: 10px; */
+    padding: 20px;
 }
 
 #main-title span {
@@ -388,7 +398,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .main-btn, .white-btn, .outline-btn, .small-btn {
     display: inline-block;
-    padding: 10px 35px;
+    padding: 20px 70px;
     margin: 3px;
     border: 2px solid transparent;
     border-radius: 3px;
