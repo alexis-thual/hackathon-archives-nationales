@@ -41,11 +41,11 @@
 <body>
 	<!-- Header -->
 	<header id="home">
-		<div class="bg-img" style="background-image: url('./img/background.png');">
-			<!-- <div class="overlay"></div> -->
-			<h2 class='my-grey' id='hashtag'>
+		<div class="bg-img" style="background-image: url('./img/SIV.JPG');">
+			<div class="overlay"></div>
+			<!-- <h2 class='my-grey' id='hashtag'>
 				#hackAN2018
-			</h2>
+			</h2> -->
 		</div>
 
 		<nav id="nav" class="navbar nav-transparent">
@@ -79,17 +79,20 @@
 
 		<div class="home-wrapper">
 			<div class="container">
-
-				<div class="row">
+				<div class="row" id='header-title'>
+					<div class="col-md-9 col-md-offset-0 col-xs-10 col-xs-offset-1">
+						<img src="./img/mazeltov-title.png" style='width: 100%'>
+					</div>
+					<div id='header-info' class="col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3">
+						<img id='date-img' src="./img/mazeltov-date.png" style='width: 80%'>
+						<h2>#hackAN2018</h2>
+						<h2>au Liberté Living-lab</h2>
+					</div>
+				</div>
+				<div class='row' id='header-buttons'>
 					<div class="col-md-12">
 						<div class="home-content" id="head_title">
-							<h1 class="white-text" id='main-title'>
-								Les Archives nationales font leur<br>
-								<span>H<em>A</em>CKATHO<em>N</em></span>
-							</h1>
-							<!-- <div style="height: 55vh">
-							</div> -->
-							<h2 id='head-date' class="my-grey">
+							<!-- <h2 id='head-date' class="my-grey">
 								<span class="my-orange">8</span> & <span class="my-orange">9</span> décembre 2018
 							</h2>
 
@@ -97,7 +100,7 @@
 								au <strong>Liberté Living-lab</strong>
 							<br>
 								9, rue d'Alexandrie, 75002
-							</div>
+							</div> -->
 
 							<div class="flex my-buttons">
 								<button id='defi-btn' class="btn-lg white-btn">
@@ -120,16 +123,22 @@
 	<div class="section sm-padding bg-grey row-defi">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<p class='text-center'>
-						Les <b>Archives nationales</b> font leur hackathon et lancent une série de défis à partir de certains de leurs fonds d’archives en lien avec les
-						problématiques de la Cité et du citoyen. C’est, pour les amateurs et développeurs soucieux d’agir pour la société dans laquelle ils vivent,
-						une occasion unique de «&nbsp;s’amuser&nbsp;» avec des fonds extraordinaires tout en contribuant à l’intérêt commun en favorisant la diffusion de 14
-						siècles d’archives de l’État.<br />
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<p>
+						Les <b>Archives nationales</b> font leur hackathon et lancent une série de défis<br>
+						à partir de certains de leurs fonds d’archives en lien avec les problématiques<br>
+						de la Cité et du citoyen.
+					</p>
+					<p>
+						C’est, pour les amateurs et développeurs soucieux d’agir pour la société dans laquelle ils vivent,
+						une occasion unique de &laquo; s’amuser &raquo; avec des fonds extraordinaires tout en contribuant à l’intérêt commun<br>
+						en favorisant la diffusion de 14
+						siècles d’archives de l’État.
+					</p>
+					<p>
 						Parmi les millions de data conservées aux Archives nationales, huit jeux de données sur des thèmes citoyens et sociétaux ont été sélectionnés
-						afin que chaque équipe puisse s’en emparer, se les approprier et proposer des outils pour en partager les contenus.<br /><br />
-
-						Le hackathon des Archives nationales s’inscrit dans le prolongement de la semaine de l’innovation publique.
+						afin que chaque équipe puisse s’en emparer,	se les approprier<br>
+						et proposer des outils pour en partager les contenus.
 					</p>
 				</div>
 			</div>
@@ -549,12 +558,13 @@
 				<div class="col-md-4">
 					<h3 class="text-center my-orange">Vendredi 7 décembre</h3>
 					<h3 class="text-center schedule-title">Lancement</h3>
-					<h4 class="my-grey"><b>Apres-midi</b></h4>
+					<h4 class="my-grey"><b>Après-midi</b></h4>
 					<div class='schedule'>
 						<div class='flex'>
-							<span>18:00</span>
+							<span>17:30</span>
 							<p class='text-left'>
-								Accueil et inscriptions à l’Hôtel Soubise (Paris 3e)
+								Accueil et inscriptions<br>
+								Hôtel Soubise, Paris 3<sup>e</sup>
 							</p>
 						</div>
 						<div class='flex'>
@@ -579,30 +589,16 @@
 				</div>
 				<div class="col-md-4">
 					<h3 class="text-center my-orange">Samedi 8 décembre</h3>
-					<h3 class="text-center schedule-title">Lancement</h3>
-					<h4 class="my-grey"><b>Matin</b></h4>
-					<div class='schedule'>
-						<div class='flex'>
-							<span>8:30</span>
-							<p>
-								Accueil et petit-déjeuner au LLL (Paris 2e)
-							</p>
-						</div>
-						<div class='flex'>
-							<span>9:00<br>12:30</span>
-							<p>
-								Travail en équipes
-							</p>
-						</div>
-						<div class='flex'>
-							<span>12:30</span>
-							<p>
-								Repas
-							</p>
-						</div>
-					</div>
+					<h3 class="text-center schedule-title">Hackathon</h3>
 					<h4 class="my-grey"><b>Après-midi</b></h4>
 					<div class='schedule'>
+						<div class='flex'>
+							<span>13:00</span>
+							<p>
+								Accueil et petit-déjeuner<br>
+								LLL, Paris 2<sup>e</sup>
+							</p>
+						</div>
 						<div class='flex'>
 							<span>14:00<br>19:00</span>
 							<p>
@@ -610,9 +606,10 @@
 							</p>
 						</div>
 						<div class='flex'>
-							<span>Après<br>19h</span>
+							<span>Après<br>19:00</span>
 							<p>
-								Travail nocturne pour ceux qui le souhaitent
+								Travail nocturne<br>
+								pour ceux qui le souhaitent
 							</p>
 						</div>
 					</div>
@@ -646,13 +643,14 @@
 						<div class='flex'>
 							<span>16:00</span>
 							<p>
-								présentation des projets devant le jury
+								Présentation des projets<br>
+								devant le jury
 							</p>
 						</div>
 						<div class='flex'>
 							<span>18:00</span>
 							<p>
-								remise des prix et clôture
+								Remise des prix et clôture
 							</p>
 						</div>
 					</div>
@@ -667,15 +665,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="section-header text-center">
-					<h2 class="title">Les prix</h2>
+					<h2 class="title">Le prix</h2>
 				</div>
 
 				<div class="col-md-offset-3 col-md-6">
 					<div class="prix_about">
 						<i class="fas fa-trophy"></i>
-						<h2 style="font-size: 25px;">1<sup>er</sup> Prix</h2>
-						<p style="font-size: 20px; font-weight: normal; color: black;">Un prix de <b>4000 euros</b> sera attribué à l'équipe lauréate du hackathon des Archives nationales.</p>
-						<p style="font-size: 20px; font-weight: normal;  color: black;"> Le plus du LLL  ! Le LLL offrira une <b>résidence de trois mois</b> dans ses locaux à cette équipe.</p>
+						<p style="font-size: 20px; font-weight: normal; color: black;">
+							4000 euros dotés par les Archives nationales<br>
+							et une résidence de six mois offerte par le LLL<br> pour l'équipe lauréate.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -692,15 +691,22 @@
 	<div id="archivesnationales" class="section md-padding bg-grey">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-offset-2 col-md-8">
-					<div class="section-header text-center">
-						<div class="col-md-offset-3 col-md-6">
-							<img src='./img/logos/logo-transparent-bleu.png' alt='logo partenaire' style="width:90%" />
-						</div>
-						<h2 class="title" style="clear: both; padding-top: 40px;">Collecter / Classer / Conserver les archives de l’État pour les Communiquer à tous les citoyens</h2>
-					</div>
+				<div class='col-md-offset-4 col-md-4' style='margin-bottom: 30px'>
+					<a href="http://www.archives-nationales.culture.gouv.fr/en/web/guest/home">
+						<img src='./img/logos/logo-transparent-bleu.png' alt='logo partenaire' style="width:90%" />
+					</a>
+				</div>
+				<div class="col-md-12 text-center">
 					<p class='text-center'>
-						Créées pendant la Révolution française, les Archives nationales conservent les archives publiques de l’État depuis le VIIe siècle, les minutes des notaires parisiens et de nombreux fonds d’archives privées de particuliers ou d’associations. Les Archives nationales permettent l’accès gratuit de tous les citoyens aux archives publiques et offrent ainsi la garantie de la transparence de l’État et de la démocratie. Ce sont près de 350 kilomètres linéaires de fonds et 50 téraoctets d’archives numériques, qui constamment s’enrichissent, soit des millions de documents précieux tant pour leur contribution à la connaissance historique et à la mémoire individuelle et collective que pour leur intérêt patrimonial unique et inestimable.
+						<strong>Collecter / Classer / Conserver les archives de l’État pour les Communiquer à tous les citoyens</strong>
+					</p>
+				</div>
+				<div class="col-md-offset-2 col-md-8 text-center">
+						Créées pendant la Révolution française, les Archives nationales conservent les archives publiques de l’État depuis le VII<sup>e</sup> siècle, les minutes des notaires parisiens et de nombreux fonds d’archives privées de particuliers ou d’associations.<br>
+						Les Archives nationales permettent l’accès gratuit de tous les citoyens aux archives publiques et offrent ainsi la garantie de la transparence de l’État et de la démocratie.
+					</p>
+					<p>
+						Ce sont près de 350 kilomètres linéaires de fonds et 50 téraoctets d’archives numériques, qui constamment s’enrichissent, soit des millions de documents précieux tant pour leur contribution à la connaissance historique et à la mémoire individuelle et collective que pour leur intérêt patrimonial unique et inestimable.
 					</p>
 				</div>
 			</div>
@@ -710,7 +716,7 @@
 	<div id="lll" class="section md-padding">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-offset-2 col-md-8">
+				<div class="col-md-offset-2 col-md-8 text-center">
 					<div class="section-header text-center">
 						<div class="col-md-offset-3 col-md-6">
 							<img src='./img/logos/LIBERTE_nom.png' alt='logo partenaire' style="width:75%" />
@@ -718,18 +724,25 @@
 						<div style="clear:both;"></div>
 						<!--<h2 class="title">Liberté Living-lab</h2>-->
 					</div>
-					<p class='text-center'>
+					<p>
 						Engagé pour une innovation technologique civique et sociale, le Liberté Living-lab
 						encourage le développement de projets entrepreneuriaux en faveur d'enjeux de bien
-						commun. Il réunit dans un espace de 2000m<sup>2</sup> au cœur de Paris un collectif
-						de 200 résidents français et internationaux aux profils pluridisciplinaires :
+						commun.
+
+						Il réunit dans un espace de 2000m<sup>2</sup> au cœur de Paris un collectif
+						de 200 résidents français et internationaux aux profils pluridisciplinaires :<br>
 						start-ups tech d’intérêt général, équipes de grandes entreprises (labs innovation
-						et intrapreneurs), chercheurs, designers et missions de service public. Tous
-						conjuguent entrepreneuriat, tech et design sur de grands enjeux de société :
-						futur du travail, éducation, transformation des territoires, transition énergétique,
+						et intrapreneurs), chercheurs, designers et missions de service public.
+					</p>
+					<p>
+						Tous
+						conjuguent entrepreneuriat, tech et design sur de grands enjeux de société :<br>
+						futur du travail, éducation, transformation des territoires, transition énergétique,<br>
 						santé, culture ou encore démocratie.
 					</p>
-					<blockquote style="position:relative; top: 40px;"><b>Liberté Living-lab</b>&nbsp; 9 Rue d'Alexandrie, 75002 Paris, France</blockquote>
+					<p style='margin-top: 45px'>
+						<b>Liberté Living-lab</b>&nbsp; 9 Rue d'Alexandrie, 75002 Paris, France
+					</p>
 				</div>
 			</div>
 		</div>
@@ -738,10 +751,13 @@
 	<iframe scrolling="no" style="position: relative; background: white;" title="Google Maps" aria-label="Google Maps" src="https://static.parastorage.com/services/santa/1.4664.27/static/external/googleMap.html?language=fr&amp;lat=48.8679657&amp;long=2.3506485999999995&amp;address=9 Rue d'Alexandrie, 75002 Paris, France&amp;addressInfo=Liberté Living Lab, 9 Rue d'Alexandrie, 75002 Paris&amp;showZoom=true&amp;showStreetView=false&amp;showMapType=false" width="100%" height="400px" frameborder="0"></iframe>
 
 	<div id="partenaires" class="section sm-padding">
-		<div class="container">
-			<div class="section-header text-center">
+		<div class="container  text-center">
+			<div class="section-header">
 				<h2 class="title">Nos partenaires</h2>
 			</div>
+			<p>
+				Le hackathon des Archives nationales s’inscrit dans le prolongement de la semaine de l’innovation publique.
+			</p>
 			<div class="row flex sponsors center">
 				<div>
 					<img src='./img/logos/annee-europ-pat-culturel.jpg' alt='logo partenaire' />
@@ -756,9 +772,6 @@
 			<div class="row flex sponsors center">
 				<div>
 					<img src='./img/logos/logop8-3.jpg' alt='logo partenaire' />
-				</div>
-				<div>
-					<img src='./img/logos/logo-transparent-bleu.png' alt='logo partenaire' class="flat" />
 				</div>
 				<div>
 					<img src='./img/logos/LIBERTE_nom.png' alt='logo partenaire' class="flat" />
@@ -788,7 +801,7 @@
 					<!-- /footer follow -->
 
 					<!-- footer copyright -->
-					<div class="footer-copyright">
+					<div class="footer-copyright" style='color: #DDD'>
 						<p>Copyright © 2018. All Rights Reserved.</p>
 					</div>
 					<!-- /footer copyright -->

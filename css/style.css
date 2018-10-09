@@ -45,10 +45,31 @@ Table OF Contents
     src: url('../fonts/coolvetica-rg.ttf');
 }
 
+@font-face {
+    font-family: Nexa;
+    src: url('../fonts/Nexa_Free_Light.otf');
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: Roboto-light;
+    src: url('../fonts/Roboto-Light.ttf');
+}
+
+body {
+    font-family: 'Roboto-light', sans-serif !important;
+    font-size: 20px !important;
+    color: black !important;
+}
+
 .btn-lg {
-    font-size: 30px;
-    padding: 14px 60px;
-    border-radius: 10px;
+    font-size: 22px;
+    padding: 12px 45px;
+    border-radius: 8px;
     font-weight: 500;
 }
 
@@ -58,7 +79,7 @@ Table OF Contents
 }
 
 body, button, a {
-    font-family: 'Arial', sans-serif;
+    /* font-family: 'Arial', sans-serif; */
 }
 
 .cadre_minus {
@@ -79,7 +100,7 @@ body, button, a {
 }
 
 #main-title span {
-    font-family: 'Coolvetica', Arial;
+    /* font-family: 'Coolvetica', Arial; */
     font-size: 2.2em;
     letter-spacing: 8px;
     color: rgb(247, 104, 34);
@@ -101,6 +122,37 @@ body, button, a {
 
 #head-date {
     color: #FFF;
+}
+
+#header-title > * {
+    padding: 0;
+}
+
+#header-info h2 {
+    width: 100%;
+    margin: 6px 0px;
+    font-size: 1.2em;
+    color: #EEE;
+    /* border: 1px solid #999; */
+    border-radius: 6px;
+    padding: 6px 0px;
+}
+
+#defis h2 {
+    color: rgb(70, 112, 142);
+    font-weight: 700;
+}
+
+#defis h3 {
+    font-weight: 300;
+}
+
+#date-img {
+    margin-bottom: 50px;
+}
+
+#header-buttons {
+    50px;
 }
 
 @media only screen and (max-width: 668px) {
@@ -136,6 +188,24 @@ body, button, a {
     #head-date {
         font-size: 22px;
     }
+
+    #header-info h2 {
+        margin: 4px 0px;
+        font-size: 0.9em;
+        padding: 4px 4px;
+    }
+
+    #date-img {
+        margin-bottom: 20px;
+    }
+
+    #header-title {
+        margin-top: 150px;
+    }
+
+    #header-buttons {
+        margin-top: 20px;
+    }
 }
 
 .title-white {
@@ -152,7 +222,7 @@ body, button, a {
 }
 
 .schedule span {
-    width: 80px;
+    min-width: 80px;
 }
 
 .schedule .text-left {
@@ -177,8 +247,12 @@ body, button, a {
 }
 
 .schedule span {
-    border-right: 2px solid #EEE;
+    border-right: 2px solid #CCC;
 }
+
+/* .schedule p {
+    border-left: 2px solid #CCC;
+} */
 
 .sponsors img {
     max-width: 150px;
@@ -278,7 +352,7 @@ body, button, a {
 /* -- typography -- */
 
 body {
-    font-family: arial, 'Varela Round', sans-serif;
+    /* font-family: arial, 'Varela Round', sans-serif; */
     font-size: 16px;
     line-height: 1.6;
     overflow-x: hidden;
@@ -286,7 +360,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: arial, 'Montserrat', sans-serif;
+    font-family: 'Roboto-light', arial, 'Montserrat', sans-serif;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -336,15 +410,15 @@ a:hover, a:focus {
 }
 
 .my-orange {
-    color: rgb(247, 104, 34)
+    color: rgb(247, 104, 34);
 }
 
 .my-grey {
-  color: rgb(188, 204, 212)
+  color: rgb(170, 187, 195);
 }
 
 .archive-color {
-  color: rgb(70, 112, 142)
+  color: rgb(70, 112, 142);
 }
 
 ::-moz-selection {
@@ -413,8 +487,8 @@ ul, ol {
     top: 0;
     right: 0;
     bottom: 0;
-    opacity: .3;
-    background: #1C1D21;
+    opacity: .5;
+    background: #1f212b;
 }
 
 
@@ -608,7 +682,7 @@ a.small-btn {
         padding: 0px 15px;
     }
     .main-nav li a {
-        font-size: 14px;
+        font-size: 16px;
         -webkit-transition: 0.2s color;
         transition: 0.2s color;
     }
